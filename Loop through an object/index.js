@@ -4,7 +4,7 @@ const person = {
   job: "Student",
 };
 
-for (let val in person) {
+for (let key in person) {
   console.log(`${key}: ${person[key]}`);
 }
 
